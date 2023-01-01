@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import { GoFlame } from "react-icons/go";
+
+import { FaFireAlt } from "react-icons/fa";
+
 import { FaFeatherAlt } from "react-icons/fa";
 import { ImMagicWand } from "react-icons/im";
 
@@ -182,7 +184,7 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
         <div class="tooltip">
 
         
-        <GoFlame
+        <FaFireAlt
           onClick={() => removeTodo(todo.id)}
           className='delete-icon'
         /> 
