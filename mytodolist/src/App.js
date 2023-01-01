@@ -1,7 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
-import { GoFlame } from "https://cdn.skypack.dev/react-icons@4.4.0/go";
-import { FaFeatherAlt } from "https://cdn.skypack.dev/react-icons@4.4.0/fa";
-import { ImMagicWand } from "https://cdn.skypack.dev/react-icons@4.4.0/im";
+
+import { GoFlame } from "react-icons/go";
+import { FaFeatherAlt } from "react-icons/fa";
+import { ImMagicWand } from "react-icons/im";
+
+
+
 import './App.css';
 
 
