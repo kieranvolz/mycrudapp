@@ -163,9 +163,9 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
       className={todo.isComplete ? 'todo-row complete' : 'todo-row'}
       key={index}
     >
-      <div key={todo.id} onClick={() => completeTodo(todo.id)}>
+      <p key={todo.id} onClick={() => completeTodo(todo.id)}>
         {todo.text}
-      </div>
+      </p>
       <div className='icons'>
         
         <div class="tooltip">
@@ -176,7 +176,7 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
           className='edit-icon'
         />            
           
-            <span class="tooltiptext">Edit with quill</span>
+            <span className="tooltiptext">Edit with quill</span>
 </div>
 
 
@@ -189,7 +189,7 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
           className='delete-icon'
         /> 
         
-  <span class="tooltiptext">Delete with fire</span>
+  <span id="delete-with-fire" className="tooltiptext">Delete with fire</span>
 </div>
      
       </div>
